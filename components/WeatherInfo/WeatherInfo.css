@@ -1,0 +1,101 @@
+.weather-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 40%;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.description {
+  text-transform: capitalize;
+  font-size: 1.2rem !important;
+  margin-bottom: 1rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+
+  /* CONTAINER */
+  .container {
+    max-width: 95%;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  /* INPUT */
+  input {
+    width: 70%;
+    max-width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    border-radius: 2rem;
+    width: 60%;
+    margin-top: 0.5rem;
+  }
+
+  /* WEATHER CARDS */
+  .weather-container {
+    max-width: 95%;
+    padding: 1rem;
+  }
+
+  /* SLIDE */
+  .slide {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  /* TEXTO */
+  p {
+    font-size: 1rem;
+  }
+
+  h2, h3 {
+    font-size: 1.3rem;
+  }
+
+  .temperature {
+    font-size: 2rem;
+  }
+
+  /* BOTÕES DO SLIDE */
+  .controls {
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+  }
+
+  .controls button {
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}
+
