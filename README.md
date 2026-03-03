@@ -14,9 +14,7 @@ Dados atmosféricos: umidade, pressão.
 
 <h2>Ferramentas utilizadas:</h2>
 
-Interface: HTML5, CSS3, Flexbox.
-
-Lógica: JavaScript ES6.
+Interface: Javascript, React, HTML5, CSS3, Flexbox.
 
 Dados: Fetch API.
 
